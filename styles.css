@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+}
+
+
+form {
+  display: flex;
+justify-content: flex-end;
+}
+
+.Inicio {
+  padding:30px;
+  text-align: left;
+  background: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Esto es para el estilo del header*/
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+/*Esto es display para el flexbox*/
+section {
+  display:-webkit-flex;
+  display: flex;
+}
+/*Estilo de la lista del menu de navegacion*/
+nav{
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+/*Estilo de la lista del menu*/
+nav ul {
+  list-style-type:square;
+  padding: 0;
+  line-height: 2;
+}
+
+/*Estilo del contenido*/
+Article {
+  -webkit-flex: 5;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 15px;
+}
+/*Estilo del footer*/
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/*Estilo de las imagenes*/
+.Imagen1 {
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.Imagen2 {
+  border: 1px solid rgb(47, 0, 255);
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.Imagen3 {
+  border: 1px solid rgb(208, 0, 255);
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.Imagen4 {
+  border: 1px solid rgb(50, 238, 33);
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.Imagen5 {
+  border: 1px solid rgb(21, 201, 186);
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.Imagen6 {
+  border: 1px solid rgb(223, 13, 111);
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*registro de Usuario*/
+
+input[type=submit] {
+  width: 100%;
+  background-color: #0f20df;
+  color: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0f20df;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+label {
+  text-align:center;
+
+}

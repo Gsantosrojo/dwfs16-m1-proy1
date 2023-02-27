@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+    crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./Assets/images/RollerbladeLOGO.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./Pages/Patines Agresivos.html">Agresive Skate</a></li>
+                  <li><a class="dropdown-item" href="./Pages/Patines FreeSkate.html">FreeSkate</a></li>
+                  <li><a class="dropdown-item" href="./Pages/Patines Fitness.html">FitnessSkate</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h3>Registro</h3>
+      <div>
+        <form action="./Pages/Paginas de registro.html">
+          <label for="fname"> <strong>Nombre</strong></label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname"><strong>Apellido</strong></label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country"><strong>Pais</strong></label>
+          <select id="country" name="country">
+            <option value="australia">Mexico</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    <header>
+        <h1>
+            Estilo de patines
+        </h1>
+        <h2>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./Assets/images/Agresivo_Carrusel.jpg" class="d-block w-100" alt="Agresivo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Assets/images/Fresskate_Carrusel.jpg" class="d-block w-100" alt="Freescate">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Assets/images/Fitness_Carrusel.jpg" class="d-block w-100" alt="Fitness">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </h2>
+    </header>
+    <section>
+        <nav>
+           <ul>
+                            
+                <li><a href="./Pages/Patines Agresivos.html">Patines Agresivos</a></li>
+                    <img class="Imagen1" src="./Assets/images/agresivo_patin.jpg" alt="Patines_Agresivos" width="150" height="150">
+                <li><a href="./Pages/Patines FreeSkate.html">Patines FreeSkate</a></li>
+                    <img class="Imagen2" src="./Assets/images/Fresskate_roller.jpg" alt="Patines_FreeSkate" width="150" height="150">
+                <li><a href="./Pages/Patines Fitness.html">Patines Fitness</a></li>
+                    <img class="Imagen3" src="./Assets/images/Fitness_roller.jpg" alt="Patines_Fitness" width="150" height="150">
+           </ul>
+        </nav>
+        <article>
+        
+            <h3>Patines Agresivos</h3>
+            <p>Los patines agresivos tienen una bota completamente rígida, 
+                para proteger al pie de posibles caídas. Su guía es muy peculiar, 
+                en la parte del centro tienen una curvatura que le ayuda a al patinador 
+                a realizar trucos, por ejemplo sobre los barandales.</p>
+                <img class="Imagen4" src="./Assets/images/Soul_Trick.jpg" alt="Patines_Agresivos" width="150" height="150">
+
+            <h3>Patines FreeSkate</h3>
+            <p>Estos patines nacieron de la fusión entre patines fitness y agresivo, por lo que tienen 
+                lo mejor de los 2; cuentan con llantas que les permiten mayor velocidad así como una bota hecha de plástico
+                 que soporta al pie el momento de realizar saltos y giros.</p>
+                 <img class="Imagen5" src="./Assets/images/Freeskate_Image.jpg" alt="Patines_Agresivos" width="150" height="150">
+            <h3>Patines Fitness</h3>
+            <p>Adecuados para un patinaje básico, orientado a paseos o rutas suaves.
+                 No recomendables para aprender técnica</p>
+                 <img class="Imagen6" src="./Assets/images/FitnessSkate.JPG" alt="Patines_Agresivos" width="150" height="150">
+        </article>
+    </section>
+
+   <p>
+    <div class="card">
+        <h3>Follow Us</h3>
+        <p>
+            <li> <img class="Imagen8" src="./Assets/images/Instagram logo.png" alt="Instagram" width="50" height="50">  <a href="//www.instagram.com/Rollerspace/">RollerSpace</a></li> 
+        </p>
+
+      </div>
+    </p>
+
+    <footer>
+            <p class="text-base text-gray-400 xl:text-center">
+              &copy; 2022 Rollerspace. Todos los derechos reservados.
+              Esta es una página creada para un proyecto.
+            </p>
+      </footer>
+</body>
+</html>
